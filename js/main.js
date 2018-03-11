@@ -1,8 +1,8 @@
 //Listen for form submit
 document.getElementById('myForm').addEventListener('submit', saveBookmark);
 
-
-//Save bookmark
+ 
+//Save bookmarks
 function saveBookmark(e) {
     //Get values from form
     var siteName = document.getElementById('siteName').value;
